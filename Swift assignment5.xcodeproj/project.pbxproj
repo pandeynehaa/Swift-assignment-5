@@ -14,6 +14,7 @@
 		602035EC28D03CF800D4F508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602035EB28D03CF800D4F508 /* Assets.xcassets */; };
 		602035EF28D03CF800D4F508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602035ED28D03CF800D4F508 /* LaunchScreen.storyboard */; };
 		602035F728D03EF800D4F508 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602035F628D03EF800D4F508 /* LoginController.swift */; };
+		60364D3228D19C5A0090FFD0 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60364D3128D19C5A0090FFD0 /* SignupController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		602035EE28D03CF800D4F508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		602035F028D03CF800D4F508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		602035F628D03EF800D4F508 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		60364D3128D19C5A0090FFD0 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				602035E428D03CF200D4F508 /* SceneDelegate.swift */,
 				602035E628D03CF200D4F508 /* ViewController.swift */,
 				602035E828D03CF200D4F508 /* Main.storyboard */,
+				60364D3128D19C5A0090FFD0 /* SignupController.swift */,
 				602035F628D03EF800D4F508 /* LoginController.swift */,
 				602035EB28D03CF800D4F508 /* Assets.xcassets */,
 				602035ED28D03CF800D4F508 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				602035E728D03CF200D4F508 /* ViewController.swift in Sources */,
 				602035F728D03EF800D4F508 /* LoginController.swift in Sources */,
 				602035E328D03CF200D4F508 /* AppDelegate.swift in Sources */,
+				60364D3228D19C5A0090FFD0 /* SignupController.swift in Sources */,
 				602035E528D03CF200D4F508 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

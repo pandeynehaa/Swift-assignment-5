@@ -145,7 +145,7 @@
         <!--Sign Up-->
         <scene sceneID="zZJ-Zy-UFB">
             <objects>
-                <viewController storyboardIdentifier="LoginController" id="2aB-ro-bVF" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginController" id="2aB-ro-bVF" customClass="SignupController" customModule="Swift_assignment5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JIm-Md-ekG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,6 +322,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Sign Up" id="WTq-N8-esy"/>
+                    <connections>
+                        <outlet property="icontextfield" destination="M8Q-Qn-KEQ" id="oHN-Gx-Pti"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZQ0-mE-FOp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
